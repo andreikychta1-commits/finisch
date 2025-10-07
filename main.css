@@ -1,0 +1,285 @@
+.hui input[type="text"], .hui input[type="submit"] {
+	border: 2px solid #a020f0;
+	color: #a020f0;
+}
+.terraria-title {
+	color: #1ecb6b;
+	text-decoration: none;
+	font-size: 2.2em;
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+.terraria-cube {
+	width: 220px;
+	height: 120px;
+	background: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 18px;
+	margin: 80px auto 0 auto;
+	box-shadow: 0 4px 16px rgba(30,203,107,0.18);
+}
+
+.minicube {
+	width: 60px;
+	height: 60px;
+	background: #04d655;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+	border: 1px solid #07c420;
+}
+.fortuna {
+	text-decoration: none !important;
+}
+.helnabro {
+	text-decoration: none !important;
+}
+.cocicka {
+	color: rgb(216, 141, 3);
+	font-size: 30px;
+	font-family: 'Bitcount Grid Double Ink', cursive;
+	
+}
+
+.bruh {
+	width: 200px;
+	height: 200px;
+	background: #024450;
+	border: 3px solid #09e2ff;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #b7d5e9;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.shrek a {
+	color: rgb(3, 97, 44);
+	text-decoration: none !important;
+}
+
+li.main_link {
+	list-style-position: inside;
+	padding-left: 0;
+	margin-left: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	background-color: #eafaf1;
+	background-image: url("magic2.0.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ .main-text {
+	color: rgba(13, 216, 101, 0.658);
+}
+
+ .example {
+	background-color: #0f0f1f;
+	background-image: url(pixel.png);
+	padding: 20px;
+	border-radius: 15px 30px; 
+	margin: 20px;
+	border: #1ecb6b solid 2px;;
+}
+
+#text-in-p {
+	color: white;
+}
+
+b {
+	color: rgba(8, 161, 77, 0.651);
+}
+
+.main_link {
+	color: rgba(13, 216, 101, 0.658);
+	text-decoration: none;
+}
+.main_link:hover {
+	color: #3bec05;
+	text-decoration: underline;
+	text-transform: capitalize;
+	cursor: pointer;	
+}
+
+.main_link:active {
+	text-decoration:  line-through;
+}
+
+input[type="text"] {
+	border: 2px solid #1ecb6b;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+#simple::before {
+	content: 'если честно мне очень нравится природа, но при этом я бы не хотел там жить';
+	color: #1ecb6b;
+	font-style: italic;
+	text-decoration: wavy underline;
+	font-size: 20px;
+	font-family:'Bitcount Grid Double Ink', cursive;
+}
+
+p.main-text:empty::after {
+	content: attr(title)
+}	
+
+p.main_link:first-letter {
+	color: rgb(209, 255, 2);
+	font-style: italic;	
+}
+
+p :first-of-type{
+	text-decoration: line-through;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap');
+
+#block {
+	background-color: #0f0f1f;
+	background-image: url(forest2.0.png);
+	width: 500px;
+	padding: 200px 20px;
+	border-radius: 15px ;
+	margin-left: 20px;
+	margin-right: auto;
+	opacity: 0.9;
+} 
+
+#ratatyi {
+	background-color: #0f0f1f;
+	background-image: url(vesna.png);
+	width: 500px;
+	padding: 200px 20px;
+	border-radius: 15px ;
+	margin-left: auto;
+	opacity: 1.0;
+}
+
+
+.flex-row {
+	display: flex;
+	align-items: stretch;
+	gap: 20px;
+}
+
+.ponal {
+	color: rgb(187, 238, 234);
+	font-size: 20px;
+	font-family: 'Bitcount Grid Double Ink', cursive;
+}
+
+.fortuna {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-family: 'Bitcount Grid Double Ink', cursive;
+	text-decoration: royalblue underline;
+}
+
+.gingolbels {
+	width: 200px;
+	height: auto;
+	border: 5px solid #109abd;
+	border-radius: 15px ;
+	margin-top: 10px;
+	margin-right: auto;
+}
+
+#forkkart {
+    list-style: none;
+	display: block;
+	float: left;
+	
+}
+
+#forkkart li {
+	display: inline;
+	background: #fafafa;
+	bottom: 1px solid silver;
+	padding: 0 20px;
+	cursor: pointer;
+
+
+}
+
+#forkkart li:hover {
+	background: #1ecb6b;
+	color: white;
+}
+
+
+#forkkart li:not(:last-of-type) {
+	margin-right: 20px;
+}
+
+.helnabro {
+	color: rgb(240, 221, 137);
+}
+
+.vrotebal {
+	width: 100%;
+	height: 2px;
+	background: #e4c980;
+	margin-top: 10px;
+}
+
+#main-bg {
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	background-color: #eafaf1;
+	background-image: url("magic.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#krank {
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	background-color: #d3cfcf;
+	background-image: url("black.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.контентно {
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 600px;
+	height: 400px;
+	padding: 0;
+	border-radius: 15px;
+	box-shadow: 0 2px 8px rgba(174, 0, 255, 0.938);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.hui {
+	width: 400px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(174, 0, 255, 0.938);
+	border: 1px solid #000000;
+	margin: 20px auto;
+}
+
+
+
